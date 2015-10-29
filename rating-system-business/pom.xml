@@ -21,6 +21,11 @@
 			<artifactId>rating-system-entities</artifactId>
 		</dependency>
 
+			<dependency>
+				<groupId>de.alpharogroup</groupId>
+				<artifactId>user-management-business</artifactId>
+			</dependency>
+
 	</dependencies>
 	
 </project>

@@ -4,11 +4,11 @@ import java.util.Date;
 
 import de.alpharogroup.db.domain.BaseBusinessObject;
 import de.alpharogroup.rating.system.enums.RatingVisibility;
+import de.alpharogroup.user.management.domain.User;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import user.management.model.Users;
 
 @Getter
 @Setter
@@ -19,7 +19,7 @@ public class Rating<K> extends BaseBusinessObject<K> {
 	private static final long serialVersionUID = 1L;
 
 	/** The id from the user that rated the entity. */
-	private Users rater;
+	private User rater;
 	/** Field mapping */
 	private Integer ratingpoints;
 	/** The time that the user made the last rating. */

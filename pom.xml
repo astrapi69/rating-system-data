@@ -43,10 +43,10 @@
 		<module>rating-system-init</module>
 		<module>rating-system-business</module>
 	</modules>
-	
+
 	<properties>
-	</properties>	
-	
+	</properties>
+
 	<dependencyManagement>
 
 		<dependencies>
@@ -63,6 +63,18 @@
 				<version>${project.version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>de.alpharogroup</groupId>
+				<artifactId>user-management-entities</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>de.alpharogroup</groupId>
+				<artifactId>user-management-business</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 		</dependencies>
 
 	</dependencyManagement>
@@ -75,5 +87,5 @@
 		</dependency>
 
 	</dependencies>
-	
+
 </project>

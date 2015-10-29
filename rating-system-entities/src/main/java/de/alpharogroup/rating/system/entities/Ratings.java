@@ -20,7 +20,7 @@ import org.hibernate.annotations.Type;
 
 import de.alpharogroup.db.entity.BaseEntity;
 import de.alpharogroup.rating.system.enums.RatingVisibility;
-import user.management.model.Users;
+import de.alpharogroup.user.management.entities.Users;
 
 /**
  * Object mapping for hibernate-handled table: profile_ratings author:
