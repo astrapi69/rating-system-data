@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-persistence-parent</artifactId>
-		<version>2.2.0</version>
+		<version>2.14.0</version>
 		<relativePath></relativePath>
 	</parent>
 
@@ -40,8 +40,7 @@
 
 	<modules>
 		<module>rating-system-entities</module>
-		<module>rating-system-init</module>
-		<module>rating-system-business</module>
+		<module>rating-system-domain</module>
 	</modules>
 
 	<properties>
@@ -59,12 +58,6 @@
 
 			<dependency>
 				<groupId>de.alpharogroup</groupId>
-				<artifactId>rating-system-business</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>de.alpharogroup</groupId>
 				<artifactId>user-management-entities</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -75,17 +68,14 @@
 				<version>${project.version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>de.alpharogroup</groupId>
+				<artifactId>user-management-domain</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 		</dependencies>
 
 	</dependencyManagement>
-
-	<dependencies>
-		<!-- LOMBOK DEPENDENCIES -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-		</dependency>
-
-	</dependencies>
 
 </project>

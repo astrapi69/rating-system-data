@@ -2,7 +2,7 @@ package de.alpharogroup.rating.system.domain;
 
 import java.util.Date;
 
-import de.alpharogroup.db.domain.BaseBusinessObject;
+import de.alpharogroup.domain.BaseDomainObject;
 import de.alpharogroup.rating.system.enums.RatingVisibility;
 import de.alpharogroup.user.management.domain.User;
 import lombok.EqualsAndHashCode;
@@ -10,11 +10,16 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The class {@link Rating}.
+ *
+ * @param <K> the key type
+ */
 @Getter
 @Setter
 @ToString(callSuper=true)
 @EqualsAndHashCode(callSuper=true)
-public class Rating<K> extends BaseBusinessObject<K> {
+public class Rating<K> extends BaseDomainObject<K> {
 	/** Serial Version UID */
 	private static final long serialVersionUID = 1L;
 
