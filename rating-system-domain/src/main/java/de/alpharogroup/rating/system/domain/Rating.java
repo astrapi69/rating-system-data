@@ -5,8 +5,10 @@ import java.util.Date;
 import de.alpharogroup.domain.BaseDomainObject;
 import de.alpharogroup.rating.system.enums.RatingVisibility;
 import de.alpharogroup.user.management.domain.User;
+import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -19,6 +21,8 @@ import lombok.ToString;
 @Setter
 @ToString(callSuper=true)
 @EqualsAndHashCode(callSuper=true)
+@NoArgsConstructor
+@AllArgsConstructor
 public class Rating<K> extends BaseDomainObject<K> {
 	/** Serial Version UID */
 	private static final long serialVersionUID = 1L;
