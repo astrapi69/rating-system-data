@@ -20,18 +20,18 @@ import org.hibernate.annotations.Type;
 
 import de.alpharogroup.db.entity.BaseEntity;
 import de.alpharogroup.rating.system.enums.RatingVisibility;
-import de.alpharogroup.user.management.entities.Users;
+import de.alpharogroup.user.entities.Users;
 
 /**
  * Object mapping for hibernate-handled table: profile_ratings author:
- * 
+ *
  */
 @MappedSuperclass
 @Access(AccessType.FIELD)
 @Getter
 @Setter
 @NoArgsConstructor
-public class Ratings 
+public class Ratings
 extends BaseEntity<Integer>
 implements Cloneable {
 
@@ -59,5 +59,5 @@ implements Cloneable {
 	@Enumerated(EnumType.STRING)
 	@Type(type = "ratingVisibilityConverter")
 	private RatingVisibility visibility;
-	
+
 }

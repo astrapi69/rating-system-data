@@ -25,7 +25,7 @@
 
 		<dependency>
 			<groupId>de.alpharogroup</groupId>
-			<artifactId>user-management-business</artifactId>
+			<artifactId>user-entities</artifactId>
 		</dependency>
 
 	</dependencies>
