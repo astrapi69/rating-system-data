@@ -39,15 +39,17 @@ import lombok.ToString;
 /**
  * The class {@link Rating}.
  *
- * @param <K> the key type
+ * @param <K>
+ *            the key type
  */
 @Getter
 @Setter
-@ToString(callSuper=true)
-@EqualsAndHashCode(callSuper=true)
+@ToString(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class Rating<K> extends BaseDomainObject<K> {
+public class Rating<K> extends BaseDomainObject<K>
+{
 	/** Serial Version UID */
 	private static final long serialVersionUID = 1L;
 

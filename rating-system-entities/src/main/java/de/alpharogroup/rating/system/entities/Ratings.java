@@ -36,15 +36,14 @@ import javax.persistence.JoinColumn;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToOne;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 import org.hibernate.annotations.Type;
 
 import de.alpharogroup.db.entity.BaseEntity;
 import de.alpharogroup.rating.system.enums.RatingVisibility;
 import de.alpharogroup.user.entities.Users;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * Object mapping for hibernate-handled table: profile_ratings author:
@@ -55,15 +54,14 @@ import de.alpharogroup.user.entities.Users;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Ratings
-extends BaseEntity<Integer>
-implements Cloneable {
+public class Ratings extends BaseEntity<Integer> implements Cloneable
+{
 
 	/** Serial Version UID */
 	private static final long serialVersionUID = 1L;
 
 	/** The id from the user that rated the entity. */
-	@OneToOne(fetch=FetchType.EAGER)
+	@OneToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "rater")
 	private Users rater;
 	/** Field mapping */
