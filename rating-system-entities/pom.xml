@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>rating-system-data</artifactId>
-		<version>3.9.0</version>
+		<version>3.11.0</version>
 	</parent>
 
 	<artifactId>rating-system-entities</artifactId>
@@ -25,7 +25,7 @@
 
 		<dependency>
 			<groupId>de.alpharogroup</groupId>
-			<artifactId>user-management-business</artifactId>
+			<artifactId>user-entities</artifactId>
 		</dependency>
 
 	</dependencies>
