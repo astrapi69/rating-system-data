@@ -8,7 +8,7 @@ The entity classes in this project are abstract and can be extended from other p
 
 The source code comes under the liberal MIT License, making rating-system-data great for all types of applications with rating features.
 
-# Build status and latest maven version
+# Build status
 [![Build Status](https://travis-ci.org/lightblueseas/rating-system-data.svg?branch=master)](https://travis-ci.org/lightblueseas/rating-system-data)
 
 ## Maven Central
