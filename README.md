@@ -1,9 +1,8 @@
-# rating-system-data
+# Overview
 
-Parent project that holds module projects for the persistence of rating data. 
+Parent project that holds module projects for the persistence of user rating data. 
 
-The entity classes in this project are abstract and can be extended from other projects for specific rating.
-
+The entity classes in this project are abstract and can be extended from other projects for specific user rating.
 
 ## License
 
@@ -57,7 +56,9 @@ Add the following maven dependency to your project `pom.xml` if you want to impo
 			</dependency>
 			...
 		</dependencies>
-
+		 
+## Open Issues
+[![Open Issues](https://img.shields.io/github/issues/astrapi69/rating-system-data.svg?style=flat)](https://github.com/astrapi69/rating-system-data/issues) 
 
 ## Want to Help and improve it? ###
 
